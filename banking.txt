@@ -1,0 +1,31 @@
+Details Of Coustomers:-
+
+Bank: Punjab National Bank
+Name: Rohit
+Account no: 3861400021458562
+User ID: Rohit@123
+Address: abc
+
+Bank: State Bank of India
+Name:Sidhant
+Account no: 61548000489652104
+User ID: Sid@123
+Address: abc
+
+Bank: State Bank of India
+Name:Jasdeep
+Account no: 4162100014212355
+User ID: Jas@123
+Address: abc
+
+Bank:ICICI Bank
+Name:Pulkit
+Account no: 6521415856964100
+User ID: Pulkit@123
+Address: abc
+
+Bank: Punjab National Bank
+Name:Aditya
+Account no: 6103302210555004
+User ID: Adi@123
+Address:abc

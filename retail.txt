@@ -1,0 +1,399 @@
+Category: FRED > Categories > Production & Business Activity > Retail Trade
+Link: https://fred.stlouisfed.org/categories/6
+README File Created: 2017-12-09
+FRED (Federal Reserve Economic Data)
+Economic Research Division
+Federal Reserve Bank of St. Louis
+
+Series files in the data directory sorted by series id:
+
+File                                    ;Title; Units; Frequency; Seasonal Adjustment; Last Updated
+ARIEAPN.txt                             ;Advance Retail Inventories: Retail Trade, Excluding Auto; Mil. of $; M; NSA; 2017-12-07
+ARIEAPS.txt                             ;Advance Retail Inventories: Retail Trade, Excluding Auto; Mil. of $; M; SA; 2017-12-07
+ARIMVPN.txt                             ;Advance Retail Inventories: Motor Vehicle and Parts Dealers; Mil. of $; M; NSA; 2017-12-07
+ARIMVPS.txt                             ;Advance Retail Inventories: Motor Vehicle and Parts Dealers; Mil. of $; M; SA; 2017-12-07
+ARINVTN.txt                             ;Advance Retail Inventories: Retail (Excluding Food Services); Mil. of $; M; NSA; 2017-12-07
+ARINVTS.txt                             ;Advance Retail Inventories: Retail (Excluding Food Services); Mil. of $; M; SA; 2017-12-07
+CMRMT.txt                               ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 2009 $; M; SA; 2017-11-30
+CMRMTSPL.txt                            ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 2009 $; M; SA; 2017-11-30
+CQRMT.txt                               ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 2009 $; Q; SA; 2017-11-30
+CQRMTSPL.txt                            ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 2009 $; Q; SA; 2017-11-30
+ECOMNSA.txt                             ;E-Commerce Retail Sales; Mil. of $; Q; NSA; 2017-11-17
+ECOMPCTNSA.txt                          ;E-Commerce Retail Sales as a Percent of Total Sales; %; Q; NSA; 2017-11-17
+ECOMPCTSA.txt                           ;E-Commerce Retail Sales as a Percent of Total Sales; %; Q; SA; 2017-11-17
+ECOMSA.txt                              ;E-Commerce Retail Sales; Mil. of $; Q; SA; 2017-11-17
+HMRMT.txt                               ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 1996 $; M; SA; 2013-06-14
+HQRMT.txt                               ;Real Manufacturing and Trade Industries Sales; Mil. of Chn. 1996 $; Q; SA; 2013-06-14
+MARTSMPCSM44000USN.txt                  ;Advance Retail Sales: Retail (Excluding Food Services); % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM44000USS.txt                  ;Advance Retail Sales: Retail (Excluding Food Services); % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM441USN.txt                    ;Advance Retail Sales: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM441USS.txt                    ;Advance Retail Sales: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM441XUSN.txt                   ;Advance Retail Sales: Auto and Other Motor Vehicles; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM441XUSS.txt                   ;Advance Retail Sales: Auto and Other Motor Vehicles; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM442USN.txt                    ;Advance Retail Sales: Furniture and Home Furnishings Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM442USS.txt                    ;Advance Retail Sales: Furniture and Home Furnishings Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM443USN.txt                    ;Advance Retail Sales: Electronics and Appliance Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM443USS.txt                    ;Advance Retail Sales: Electronics and Appliance Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM444USN.txt                    ;Advance Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM444USS.txt                    ;Advance Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM4451USN.txt                   ;Advance Retail Sales: Grocery Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM4451USS.txt                   ;Advance Retail Sales: Grocery Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM445USN.txt                    ;Advance Retail Sales: Food and Beverage Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM445USS.txt                    ;Advance Retail Sales: Food and Beverage Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM446USN.txt                    ;Advance Retail Sales: Health and Personal Care Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM446USS.txt                    ;Advance Retail Sales: Health and Personal Care Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM447USN.txt                    ;Advance Retail Sales: Gasoline Stations; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM447USS.txt                    ;Advance Retail Sales: Gasoline Stations; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM448USN.txt                    ;Advance Retail Sales: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM448USS.txt                    ;Advance Retail Sales: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM44X72USN.txt                  ;Advance Retail Sales: Retail and Food Services, Total; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM44X72USS.txt                  ;Advance Retail Sales: Retail and Food Services, Total; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM44Y72USN.txt                  ;Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM44Y72USS.txt                  ;Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM451USN.txt                    ;Advance Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM451USS.txt                    ;Advance Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM4521EUSN.txt                  ;Advance Retail Sales: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM4521EUSS.txt                  ;Advance Retail Sales: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM452USN.txt                    ;Advance Retail Sales: General Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM452USS.txt                    ;Advance Retail Sales: General Merchandise Stores; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM453USN.txt                    ;Advance Retail Sales: Miscellaneous Store Retailers; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM453USS.txt                    ;Advance Retail Sales: Miscellaneous Store Retailers; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM454USN.txt                    ;Advance Retail Sales: Nonstore Retailers; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM454USS.txt                    ;Advance Retail Sales: Nonstore Retailers; % Chg. from Preceding Period; M; SA; 2017-12-01
+MARTSMPCSM722USN.txt                    ;Advance Retail Sales: Food Services and Drinking Places; % Chg. from Preceding Period; M; NSA; 2017-12-01
+MARTSMPCSM722USS.txt                    ;Advance Retail Sales: Food Services and Drinking Places; % Chg. from Preceding Period; M; SA; 2017-12-01
+MRTSIM44000USN.txt                      ;Retail Inventories: Retail (Excluding Food Services); Mil. of $; M; NSA; 2017-12-06
+MRTSIM44000USS.txt                      ;Retail Inventories: Retail (Excluding Food Services); Mil. of $; M; SA; 2017-12-06
+MRTSIM4400AUSN.txt                      ;Retail Inventories: Retail Trade, Excluding Auto; Mil. of $; M; NSA; 2017-12-06
+MRTSIM4400AUSS.txt                      ;Retail Inventories: Retail Trade, Excluding Auto; Mil. of $; M; SA; 2017-12-06
+MRTSIM441USN.txt                        ;Retail Inventories: Motor Vehicle and Parts Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSIM441USS.txt                        ;Retail Inventories: Motor Vehicle and Parts Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSIM4423XUSN.txt                      ;Retail Inventories: Furniture, Home Furniture, Electronics, and Appliance Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSIM4423XUSS.txt                      ;Retail Inventories: Furniture, Home Furniture, Electronics, and Appliance Stores; Mil. of $; M; SA; 2017-12-06
+MRTSIM444USN.txt                        ;Retail Inventories: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSIM444USS.txt                        ;Retail Inventories: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSIM445USN.txt                        ;Retail Inventories: Food and Beverage Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSIM445USS.txt                        ;Retail Inventories: Food and Beverage Stores; Mil. of $; M; SA; 2017-12-06
+MRTSIM448USN.txt                        ;Retail Inventories: Clothing and Clothing Accessory Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSIM448USS.txt                        ;Retail Inventories: Clothing and Clothing Accessory Stores; Mil. of $; M; SA; 2017-12-06
+MRTSIM4521EUSN.txt                      ;Retail Inventories: Department Stores (Excluding Leased Departments); Mil. of $; M; NSA; 2017-12-06
+MRTSIM4521EUSS.txt                      ;Retail Inventories: Department Stores (Excluding Leased Departments); Mil. of $; M; SA; 2017-12-06
+MRTSIM452USN.txt                        ;Retail Inventories: General Merchandise Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSIM452USS.txt                        ;Retail Inventories: General Merchandise Stores; Mil. of $; M; SA; 2017-12-06
+MRTSIR44000USN.txt                      ;Retail Inventories to Sales Ratio: Retail (Excluding Food Services); Ratio; M; NSA; 2017-12-06
+MRTSIR44000USS.txt                      ;Retail Inventories to Sales Ratio: Retail (Excluding Food Services); Ratio; M; SA; 2017-12-06
+MRTSIR4400AUSN.txt                      ;Retail Inventories to Sales Ratio: Retail Trade, Excluding Auto; Ratio; M; NSA; 2017-12-06
+MRTSIR4400AUSS.txt                      ;Retail Inventories to Sales Ratio: Retail Trade, Excluding Auto; Ratio; M; SA; 2017-12-06
+MRTSIR441USN.txt                        ;Retail Inventories to Sales Ratio: Motor Vehicle and Parts Dealers; Ratio; M; NSA; 2017-12-06
+MRTSIR441USS.txt                        ;Retail Inventories to Sales Ratio: Motor Vehicle and Parts Dealers; Ratio; M; SA; 2017-12-06
+MRTSIR4423XUSN.txt                      ;Retail Inventories to Sales Ratio: Furniture, Home Furniture, Electronics, and Appliance Stores; Ratio; M; NSA; 2017-12-06
+MRTSIR4423XUSS.txt                      ;Retail Inventories to Sales Ratio: Furniture, Home Furniture, Electronics, and Appliance Stores; Ratio; M; SA; 2017-12-06
+MRTSIR444USN.txt                        ;Retail Inventories to Sales Ratio: Building Materials, Garden Equipment and Supplies Dealers; Ratio; M; NSA; 2017-12-06
+MRTSIR444USS.txt                        ;Retail Inventories to Sales Ratio: Building Materials, Garden Equipment and Supplies Dealers; Ratio; M; SA; 2017-12-06
+MRTSIR445USN.txt                        ;Retail Inventories to Sales Ratio: Food and Beverage Stores; Ratio; M; NSA; 2017-12-06
+MRTSIR445USS.txt                        ;Retail Inventories to Sales Ratio: Food and Beverage Stores; Ratio; M; SA; 2017-12-06
+MRTSIR448USN.txt                        ;Retail Inventories to Sales Ratio: Clothing and Clothing Accessory Stores; Ratio; M; NSA; 2017-12-06
+MRTSIR448USS.txt                        ;Retail Inventories to Sales Ratio: Clothing and Clothing Accessory Stores; Ratio; M; SA; 2017-12-06
+MRTSIR4521EUSN.txt                      ;Retail Inventories to Sales Ratio: Department Stores (Excluding Leased Departments); Ratio; M; NSA; 2017-12-06
+MRTSIR4521EUSS.txt                      ;Retail Inventories to Sales Ratio: Department Stores (Excluding Leased Departments); Ratio; M; SA; 2017-12-06
+MRTSIR452USN.txt                        ;Retail Inventories to Sales Ratio: General Merchandise Stores; Ratio; M; NSA; 2017-12-06
+MRTSIR452USS.txt                        ;Retail Inventories to Sales Ratio: General Merchandise Stores; Ratio; M; SA; 2017-12-06
+MRTSMPCIM44000USN.txt                   ;Retail Inventories: Retail (Excluding Food Services); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM44000USS.txt                   ;Retail Inventories: Retail (Excluding Food Services); % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM4400AUSN.txt                   ;Retail Inventories: Retail Trade, Excluding Auto; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM4400AUSS.txt                   ;Retail Inventories: Retail Trade, Excluding Auto; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM441USN.txt                     ;Retail Inventories: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM441USS.txt                     ;Retail Inventories: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM4423XUSN.txt                   ;Retail Inventories: Furniture, Home Furniture, Electronics, and Appliance Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM4423XUSS.txt                   ;Retail Inventories: Furniture, Home Furniture, Electronics, and Appliance Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM444USN.txt                     ;Retail Inventories: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM444USS.txt                     ;Retail Inventories: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM445USN.txt                     ;Retail Inventories: Food and Beverage Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM445USS.txt                     ;Retail Inventories: Food and Beverage Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM448USN.txt                     ;Retail Inventories: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM448USS.txt                     ;Retail Inventories: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM4521EUSN.txt                   ;Retail Inventories: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM4521EUSS.txt                   ;Retail Inventories: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCIM452USN.txt                     ;Retail Inventories: General Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCIM452USS.txt                     ;Retail Inventories: General Merchandise Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44000USN.txt                   ;Retail Sales: Retail (Excluding Food Services); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44000USS.txt                   ;Retail Sales: Retail (Excluding Food Services); % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4400AUSN.txt                   ;Retail Sales: Retail Trade, Excluding Auto; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4400AUSS.txt                   ;Retail Sales: Retail Trade, Excluding Auto; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4400CUSN.txt                   ;Retail Sales: GAFO (General Merchandise Normally Sold in Department Stores); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4400CUSS.txt                   ;Retail Sales: GAFO (General Merchandise Normally Sold in Department Stores); % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44111USN.txt                   ;Retail Sales: New Car Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44112USN.txt                   ;Retail Sales: Used Car Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4411USN.txt                    ;Retail Sales: Automobile Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4413USN.txt                    ;Retail Sales: Automotive Parts, Accessories, and Tire Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4413USS.txt                    ;Retail Sales: Automotive Parts, Accessories, and Tire Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM441USN.txt                     ;Retail Sales: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM441USS.txt                     ;Retail Sales: Motor Vehicle and Parts Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM441XUSN.txt                    ;Retail Sales: Auto and Other Motor Vehicles; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM441XUSS.txt                    ;Retail Sales: Auto and Other Motor Vehicles; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4421USN.txt                    ;Retail Sales: Furniture Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44221USN.txt                   ;Retail Sales: Floor Covering Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM442299USN.txt                  ;Retail Sales: All Other Home Furnishings Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4422USN.txt                    ;Retail Sales: Home Furnishings Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4423XUSN.txt                   ;Retail Sales: Furniture, Home Furniture, Electronics, and Appliance Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4423XUSS.txt                   ;Retail Sales: Furniture, Home Furniture, Electronics, and Appliance Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM442USN.txt                     ;Retail Sales: Furniture and Home Furnishings Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM442USS.txt                     ;Retail Sales: Furniture and Home Furnishings Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM443111USN.txt                  ;Retail Sales: Household Appliance Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM443112USN.txt                  ;Retail Sales: Radio, TV, and Other Electronics Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44311USN.txt                   ;Retail Sales: Appliance, TV, and Other Electronics Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44312USN.txt                   ;Retail Sales: Computer and Software Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44312USS.txt                   ;Retail Sales: Computer and Software Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM443USN.txt                     ;Retail Sales: Electronics and Appliance Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM443USS.txt                     ;Retail Sales: Electronics and Appliance Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44412USN.txt                   ;Retail Sales: Paint and Wallpaper Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44413USN.txt                   ;Retail Sales: Hardware Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4441USN.txt                    ;Retail Sales: Building Material and Supplies Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4441USS.txt                    ;Retail Sales: Building Material and Supplies Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM444USN.txt                     ;Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM444USS.txt                     ;Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44511USN.txt                   ;Retail Sales: Supermarkets and Other Grocery (Except Convenience) Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4451USN.txt                    ;Retail Sales: Grocery Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4451USS.txt                    ;Retail Sales: Grocery Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4453USN.txt                    ;Retail Sales: Beer, Wine, and Liquor Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4453USS.txt                    ;Retail Sales: Beer, Wine, and Liquor Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM445USN.txt                     ;Retail Sales: Food and Beverage Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM445USS.txt                     ;Retail Sales: Food and Beverage Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44611USN.txt                   ;Retail Sales: Pharmacies and Drug Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44611USS.txt                   ;Retail Sales: Pharmacies and Drug Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM446USN.txt                     ;Retail Sales: Health and Personal Care Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM446USS.txt                     ;Retail Sales: Health and Personal Care Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM447USN.txt                     ;Retail Sales: Gasoline Stations; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM447USS.txt                     ;Retail Sales: Gasoline Stations; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44811USN.txt                   ;Retail Sales: Men's Clothing Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44811USS.txt                   ;Retail Sales: Men's Clothing Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44812USN.txt                   ;Retail Sales: Women's Clothing Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44812USS.txt                   ;Retail Sales: Women's Clothing Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44814USN.txt                   ;Retail Sales: Family Clothing Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44819USN.txt                   ;Retail Sales: Other Clothing Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4481USN.txt                    ;Retail Sales: Clothing Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4481USS.txt                    ;Retail Sales: Clothing Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4482USN.txt                    ;Retail Sales: Shoe Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4482USS.txt                    ;Retail Sales: Shoe Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44831USN.txt                   ;Retail Sales: Jewelry Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44831USS.txt                   ;Retail Sales: Jewelry Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM448USN.txt                     ;Retail Sales: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM448USS.txt                     ;Retail Sales: Clothing and Clothing Accessory Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44X72USN.txt                   ;Retail Sales: Retail and Food Services, Total; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44X72USS.txt                   ;Retail Sales: Retail and Food Services, Total; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM44Y72USN.txt                   ;Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM44Y72USS.txt                   ;Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM45111USN.txt                   ;Retail Sales: Sporting Goods Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45112USN.txt                   ;Retail Sales: Hobby, Toy, and Game Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM451211USN.txt                  ;Retail Sales: Book Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM451USN.txt                     ;Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM451USS.txt                     ;Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM452111EUSN.txt                 ;Retail Sales: Department Stores (Excluding Discount Department Stores); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM452111IUSN.txt                 ;Retail Sales: Department Stores (Excluding Discount Department Stores); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM452112EUSN.txt                 ;Retail Sales: Discount Department Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM452112IUSN.txt                 ;Retail Sales: Discount Department Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4521EUSN.txt                   ;Retail Sales: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4521EUSS.txt                   ;Retail Sales: Department Stores (Excluding Leased Departments); % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4521IUSN.txt                   ;Retail Sales: Department Stores (Including Leased Departments); % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45291USN.txt                   ;Retail Sales: Warehouse Clubs and Superstores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45291USS.txt                   ;Retail Sales: Warehouse Clubs and Superstores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM45299USN.txt                   ;Retail Sales: All Other General Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45299USS.txt                   ;Retail Sales: All Other General Merchandise Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4529USN.txt                    ;Retail Sales: Other General Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4529USS.txt                    ;Retail Sales: Other General Merchandise Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM452USN.txt                     ;Retail Sales: General Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM452USS.txt                     ;Retail Sales: General Merchandise Stores; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM45321USN.txt                   ;Retail Sales: Office Supplies and Stationery Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45322USN.txt                   ;Retail Sales: Gift, Novelty, and Souvenir Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4532USN.txt                    ;Retail Sales: Office Supplies, Stationery, and Gift Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45330USN.txt                   ;Retail Sales: Used Merchandise Stores; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM453USN.txt                     ;Retail Sales: Miscellaneous Store Retailers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM453USS.txt                     ;Retail Sales: Miscellaneous Store Retailers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM4541USN.txt                    ;Retail Sales: Electronic Shopping and Mail-order Houses; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM4541USS.txt                    ;Retail Sales: Electronic Shopping and Mail-order Houses; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM45431USN.txt                   ;Retail Sales: Fuel Dealers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM45431USS.txt                   ;Retail Sales: Fuel Dealers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM454USN.txt                     ;Retail Sales: Nonstore Retailers; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM454USS.txt                     ;Retail Sales: Nonstore Retailers; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSMPCSM7221USN.txt                    ;Retail Sales: Full Service Restaurants; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM7222USN.txt                    ;Retail Sales: Limited Service Eating Places; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM7224USN.txt                    ;Retail Sales: Drinking Places; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM722USN.txt                     ;Retail Sales: Food Services and Drinking Places; % Chg. from Preceding Period; M; NSA; 2017-12-06
+MRTSMPCSM722USS.txt                     ;Retail Sales: Food Services and Drinking Places; % Chg. from Preceding Period; M; SA; 2017-12-06
+MRTSSM44000USN.txt                      ;Retail Sales: Retail (Excluding Food Services); Mil. of $; M; NSA; 2017-12-06
+MRTSSM44000USS.txt                      ;Retail Sales: Retail (Excluding Food Services); Mil. of $; M; SA; 2017-12-06
+MRTSSM4400AUSN.txt                      ;Retail Sales: Retail Trade, Excluding Auto; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4400AUSS.txt                      ;Retail Sales: Retail Trade, Excluding Auto; Mil. of $; M; SA; 2017-12-06
+MRTSSM4400CUSN.txt                      ;Retail Sales: GAFO (General Merchandise Normally Sold in Department Stores); Mil. of $; M; NSA; 2017-12-06
+MRTSSM4400CUSS.txt                      ;Retail Sales: GAFO (General Merchandise Normally Sold in Department Stores); Mil. of $; M; SA; 2017-12-06
+MRTSSM44111USN.txt                      ;Retail Sales: New Car Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44112USN.txt                      ;Retail Sales: Used Car Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4411USN.txt                       ;Retail Sales: Automobile Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4413USN.txt                       ;Retail Sales: Automotive Parts, Accessories, and Tire Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4413USS.txt                       ;Retail Sales: Automotive Parts, Accessories, and Tire Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM441USN.txt                        ;Retail Sales: Motor Vehicle and Parts Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM441USS.txt                        ;Retail Sales: Motor Vehicle and Parts Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSSM441XUSN.txt                       ;Retail Sales: Auto and Other Motor Vehicles; Mil. of $; M; NSA; 2017-12-06
+MRTSSM441XUSS.txt                       ;Retail Sales: Auto and Other Motor Vehicles; Mil. of $; M; SA; 2017-12-06
+MRTSSM4421USN.txt                       ;Retail Sales: Furniture Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44221USN.txt                      ;Retail Sales: Floor Covering Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM442299USN.txt                     ;Retail Sales: All Other Home Furnishings Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4422USN.txt                       ;Retail Sales: Home Furnishings Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4423XUSN.txt                      ;Retail Sales: Furniture, Home Furniture, Electronics, and Appliance Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4423XUSS.txt                      ;Retail Sales: Furniture, Home Furniture, Electronics, and Appliance Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM442USN.txt                        ;Retail Sales: Furniture and Home Furnishings Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM442USS.txt                        ;Retail Sales: Furniture and Home Furnishings Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM443111USN.txt                     ;Retail Sales: Household Appliance Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM443112USN.txt                     ;Retail Sales: Radio, TV, and Other Electronics Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44311USN.txt                      ;Retail Sales: Appliance, TV, and Other Electronics Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44312USN.txt                      ;Retail Sales: Computer and Software Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44312USS.txt                      ;Retail Sales: Computer and Software Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM443USN.txt                        ;Retail Sales: Electronics and Appliance Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM443USS.txt                        ;Retail Sales: Electronics and Appliance Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44412USN.txt                      ;Retail Sales: Paint and Wallpaper Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44413USN.txt                      ;Retail Sales: Hardware Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4441USN.txt                       ;Retail Sales: Building Material and Supplies Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4441USS.txt                       ;Retail Sales: Building Material and Supplies Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSSM444USN.txt                        ;Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM444USS.txt                        ;Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSSM44511USN.txt                      ;Retail Sales: Supermarkets and Other Grocery (Except Convenience) Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4451USN.txt                       ;Retail Sales: Grocery Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4451USS.txt                       ;Retail Sales: Grocery Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM4453USN.txt                       ;Retail Sales: Beer, Wine, and Liquor Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4453USS.txt                       ;Retail Sales: Beer, Wine, and Liquor Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM445USN.txt                        ;Retail Sales: Food and Beverage Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM445USS.txt                        ;Retail Sales: Food and Beverage Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44611USN.txt                      ;Retail Sales: Pharmacies and Drug Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44611USS.txt                      ;Retail Sales: Pharmacies and Drug Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM446USN.txt                        ;Retail Sales: Health and Personal Care Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM446USS.txt                        ;Retail Sales: Health and Personal Care Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM447USN.txt                        ;Retail Sales: Gasoline Stations; Mil. of $; M; NSA; 2017-12-06
+MRTSSM447USS.txt                        ;Retail Sales: Gasoline Stations; Mil. of $; M; SA; 2017-12-06
+MRTSSM44811USN.txt                      ;Retail Sales: Men's Clothing Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44811USS.txt                      ;Retail Sales: Men's Clothing Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44812USN.txt                      ;Retail Sales: Women's Clothing Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44812USS.txt                      ;Retail Sales: Women's Clothing Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44814USN.txt                      ;Retail Sales: Family Clothing Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44819USN.txt                      ;Retail Sales: Other Clothing Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4481USN.txt                       ;Retail Sales: Clothing Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4481USS.txt                       ;Retail Sales: Clothing Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM4482USN.txt                       ;Retail Sales: Shoe Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4482USS.txt                       ;Retail Sales: Shoe Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44831USN.txt                      ;Retail Sales: Jewelry Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44831USS.txt                      ;Retail Sales: Jewelry Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM448USN.txt                        ;Retail Sales: Clothing and Clothing Accessory Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM448USS.txt                        ;Retail Sales: Clothing and Clothing Accessory Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM44X72USN.txt                      ;Retail Sales: Retail and Food Services, Total; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44X72USS.txt                      ;Retail Sales: Retail and Food Services, Total; Mil. of $; M; SA; 2017-12-06
+MRTSSM44Y72USN.txt                      ;Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM44Y72USS.txt                      ;Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSSM45111USN.txt                      ;Retail Sales: Sporting Goods Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45112USN.txt                      ;Retail Sales: Hobby, Toy, and Game Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM451211USN.txt                     ;Retail Sales: Book Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM451USN.txt                        ;Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM451USS.txt                        ;Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM452111EUSN.txt                    ;Retail Sales: Department Stores (Excluding Discount Department Stores); Mil. of $; M; NSA; 2017-12-06
+MRTSSM452111IUSN.txt                    ;Retail Sales: Department Stores (Excluding Discount Department Stores); Mil. of $; M; NSA; 2017-12-06
+MRTSSM452112EUSN.txt                    ;Retail Sales: Discount Department Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM452112IUSN.txt                    ;Retail Sales: Discount Department Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4521EUSN.txt                      ;Retail Sales: Department Stores (Excluding Leased Departments); Mil. of $; M; NSA; 2017-12-06
+MRTSSM4521EUSS.txt                      ;Retail Sales: Department Stores (Excluding Leased Departments); Mil. of $; M; SA; 2017-12-06
+MRTSSM4521IUSN.txt                      ;Retail Sales: Department Stores (Including Leased Departments); Mil. of $; M; NSA; 2017-12-06
+MRTSSM45291USN.txt                      ;Retail Sales: Warehouse Clubs and Superstores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45291USS.txt                      ;Retail Sales: Warehouse Clubs and Superstores; Mil. of $; M; SA; 2017-12-06
+MRTSSM45299USN.txt                      ;Retail Sales: All Other General Merchandise Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45299USS.txt                      ;Retail Sales: All Other General Merchandise Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM4529USN.txt                       ;Retail Sales: Other General Merchandise Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4529USS.txt                       ;Retail Sales: Other General Merchandise Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM452USN.txt                        ;Retail Sales: General Merchandise Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM452USS.txt                        ;Retail Sales: General Merchandise Stores; Mil. of $; M; SA; 2017-12-06
+MRTSSM45321USN.txt                      ;Retail Sales: Office Supplies and Stationery Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45322USN.txt                      ;Retail Sales: Gift, Novelty, and Souvenir Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4532USN.txt                       ;Retail Sales: Office Supplies, Stationery, and Gift Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45330USN.txt                      ;Retail Sales: Used Merchandise Stores; Mil. of $; M; NSA; 2017-12-06
+MRTSSM453USN.txt                        ;Retail Sales: Miscellaneous Store Retailers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM453USS.txt                        ;Retail Sales: Miscellaneous Store Retailers; Mil. of $; M; SA; 2017-12-06
+MRTSSM4541USN.txt                       ;Retail Sales: Electronic Shopping and Mail-order Houses; Mil. of $; M; NSA; 2017-12-06
+MRTSSM4541USS.txt                       ;Retail Sales: Electronic Shopping and Mail-order Houses; Mil. of $; M; SA; 2017-12-06
+MRTSSM45431USN.txt                      ;Retail Sales: Fuel Dealers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM45431USS.txt                      ;Retail Sales: Fuel Dealers; Mil. of $; M; SA; 2017-12-06
+MRTSSM454USN.txt                        ;Retail Sales: Nonstore Retailers; Mil. of $; M; NSA; 2017-12-06
+MRTSSM454USS.txt                        ;Retail Sales: Nonstore Retailers; Mil. of $; M; SA; 2017-12-06
+MRTSSM7221USN.txt                       ;Retail Sales: Full Service Restaurants; Mil. of $; M; NSA; 2017-12-06
+MRTSSM7222USN.txt                       ;Retail Sales: Limited Service Eating Places; Mil. of $; M; NSA; 2017-12-06
+MRTSSM7224USN.txt                       ;Retail Sales: Drinking Places; Mil. of $; M; NSA; 2017-12-06
+MRTSSM722USN.txt                        ;Retail Sales: Food Services and Drinking Places; Mil. of $; M; NSA; 2017-12-06
+MRTSSM722USS.txt                        ;Retail Sales: Food Services and Drinking Places; Mil. of $; M; SA; 2017-12-06
+RETAIL.txt                              ;Retail Sales (DISCONTINUED); Mil. of $; M; SA; 2005-09-30
+RETAILIMNSA.txt                         ;Retailers Inventories; Mil. of $; M; NSA; 2017-11-15
+RETAILIMSA.txt                          ;Retailers Inventories; Mil. of $; M; SA; 2017-11-15
+RETAILIRNSA.txt                         ;Retailers: Inventories to Sales Ratio; Ratio; M; NSA; 2017-11-15
+RETAILIRSA.txt                          ;Retailers: Inventories to Sales Ratio; Ratio; M; SA; 2017-11-15
+RETAILMPCIMNSA.txt                      ;Retailers Inventories; % Chg.; M; NSA; 2017-11-15
+RETAILMPCIMSA.txt                       ;Retailers Inventories; % Chg.; M; SA; 2017-11-15
+RETAILMPCSMNSA.txt                      ;Retailers Sales; % Chg.; M; NSA; 2017-11-15
+RETAILMPCSMSA.txt                       ;Retailers Sales; % Chg.; M; SA; 2017-11-15
+RETAILNS.txt                            ;Retail Sales (DISCONTINUED); Mil. of $; M; NSA; 2005-09-30
+RETAILSMNSA.txt                         ;Retailers Sales; Mil. of $; M; NSA; 2017-11-15
+RETAILSMSA.txt                          ;Retailers Sales; Mil. of $; M; SA; 2017-11-15
+RRSFS.txt                               ;Real Retail and Food Services Sales; Mil. of $; M; SA; 2017-11-15
+RSAFS.txt                               ;Advance Retail Sales: Retail and Food Services, Total; Mil. of $; M; SA; 2017-11-15
+RSAFSNA.txt                             ;Advance Retail Sales: Retail and Food Services, Total; Mil. of $; M; NSA; 2017-11-15
+RSALES.txt                              ;Real Retail Sales (DISCONTINUED); Mil. of $; M; SA; 2005-09-30
+RSAOMV.txt                              ;Advance Retail Sales: Auto and Other Motor Vehicles; Mil. of $; M; SA; 2017-11-15
+RSAOMVN.txt                             ;Advance Retail Sales: Auto and Other Motor Vehicles; Mil. of $; M; NSA; 2017-11-15
+RSBMGESD.txt                            ;Advance Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; SA; 2017-11-15
+RSBMGESDN.txt                           ;Advance Retail Sales: Building Materials, Garden Equipment and Supplies Dealers; Mil. of $; M; NSA; 2017-11-15
+RSCCAS.txt                              ;Advance Retail Sales: Clothing and Clothing Accessory Stores; Mil. of $; M; SA; 2017-11-15
+RSCCASN.txt                             ;Advance Retail Sales: Clothing and Clothing Accessory Stores; Mil. of $; M; NSA; 2017-11-15
+RSDBS.txt                               ;Advance Retail Sales: Food and Beverage Stores; Mil. of $; M; SA; 2017-11-15
+RSDBSN.txt                              ;Advance Retail Sales: Food and Beverage Stores; Mil. of $; M; NSA; 2017-11-15
+RSDSELD.txt                             ;Advance Retail Sales: Department Stores (Excluding Leased Departments); Mil. of $; M; SA; 2017-11-15
+RSDSELDN.txt                            ;Advance Retail Sales: Department Stores (Excluding Leased Departments); Mil. of $; M; NSA; 2017-11-15
+RSEAS.txt                               ;Advance Retail Sales: Electronics and Appliance Stores; Mil. of $; M; SA; 2017-11-15
+RSEASN.txt                              ;Advance Retail Sales: Electronics and Appliance Stores; Mil. of $; M; NSA; 2017-11-15
+RSFHFS.txt                              ;Advance Retail Sales: Furniture and Home Furnishings Stores; Mil. of $; M; SA; 2017-11-15
+RSFHFSN.txt                             ;Advance Retail Sales: Furniture and Home Furnishings Stores; Mil. of $; M; NSA; 2017-11-15
+RSFSDP.txt                              ;Advance Retail Sales: Food Services and Drinking Places; Mil. of $; M; SA; 2017-11-15
+RSFSDPN.txt                             ;Advance Retail Sales: Food Services and Drinking Places; Mil. of $; M; NSA; 2017-11-15
+RSFSXMV.txt                             ;Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; Mil. of $; M; SA; 2017-11-15
+RSFSXMVN.txt                            ;Advance Retail Sales: Retail and Food Services Excluding Motor Vehicles and Parts Dealers; Mil. of $; M; NSA; 2017-11-15
+RSGASS.txt                              ;Advance Retail Sales: Gasoline Stations; Mil. of $; M; SA; 2017-11-15
+RSGASSN.txt                             ;Advance Retail Sales: Gasoline Stations; Mil. of $; M; NSA; 2017-11-15
+RSGCS.txt                               ;Advance Retail Sales: Grocery Stores; Mil. of $; M; SA; 2017-11-15
+RSGCSN.txt                              ;Advance Retail Sales: Grocery Stores; Mil. of $; M; NSA; 2017-11-15
+RSGMS.txt                               ;Advance Retail Sales: General Merchandise Stores; Mil. of $; M; SA; 2017-11-15
+RSGMSN.txt                              ;Advance Retail Sales: General Merchandise Stores; Mil. of $; M; NSA; 2017-11-15
+RSHPCS.txt                              ;Advance Retail Sales: Health and Personal Care Stores; Mil. of $; M; SA; 2017-11-15
+RSHPCSN.txt                             ;Advance Retail Sales: Health and Personal Care Stores; Mil. of $; M; NSA; 2017-11-15
+RSMSR.txt                               ;Advance Retail Sales: Miscellaneous Store Retailers; Mil. of $; M; SA; 2017-11-15
+RSMSRN.txt                              ;Advance Retail Sales: Miscellaneous Store Retailers; Mil. of $; M; NSA; 2017-11-15
+RSMVPD.txt                              ;Advance Retail Sales: Motor Vehicle and Parts Dealers; Mil. of $; M; SA; 2017-11-15
+RSMVPDN.txt                             ;Advance Retail Sales: Motor Vehicle and Parts Dealers; Mil. of $; M; NSA; 2017-11-15
+RSNSR.txt                               ;Advance Retail Sales: Nonstore Retailers; Mil. of $; M; SA; 2017-11-15
+RSNSRN.txt                              ;Advance Retail Sales: Nonstore Retailers; Mil. of $; M; NSA; 2017-11-15
+RSSGHBMS.txt                            ;Advance Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; Mil. of $; M; SA; 2017-11-15
+RSSGHBMSN.txt                           ;Advance Retail Sales: Sporting Goods, Hobby, Book, and Music Stores; Mil. of $; M; NSA; 2017-11-15
+RSXFS.txt                               ;Advance Retail Sales: Retail (Excluding Food Services); Mil. of $; M; SA; 2017-11-15
+RSXFSN.txt                              ;Advance Retail Sales: Retail (Excluding Food Services); Mil. of $; M; NSA; 2017-11-15
+
+Abbreviations:
+
+Frequency
+   A = Annual
+   SA = Semiannual
+   Q = Quarterly
+   M = Monthly
+   BW = Biweekly
+   W = Weekly
+   D = Daily
+Seasonal Adjustment
+   SA = Seasonally Adjusted
+   NSA = Not Seasonally Adjusted
+   SAAR = Seasonally Adjusted Annual Rate
+   SSA = Smoothed Seasonally Adjusted
+   NA = Not Applicable
+
+Directories are limited to 1000 files or less.
+Subdirectories are created recursively for each character in a series ID until 1000 or fewer series IDs match a substring.
+Most zip files contain less than 1000 files and do not contain additional subdirectories.
